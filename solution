@@ -1,0 +1,4 @@
+def solution (A):
+	sum1=sum(x for x in A)
+	sum2=sum(y for y in range(1,len(A)+2))
+	return (sum2-sum1)
